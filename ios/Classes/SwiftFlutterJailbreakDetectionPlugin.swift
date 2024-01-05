@@ -15,8 +15,11 @@ public class SwiftFlutterJailbreakDetectionPlugin: NSObject, FlutterPlugin {
             let check2 = IOSSecuritySuite.amIJailbroken()
             result(check2)
             break
-        case "developerMode":
+        case "emulatorRun":
             result(IOSSecuritySuite.amIRunInEmulator())
+            break
+        case "debugMode":
+            result(IOSSecuritySuite.amIDebugged())
             break
         default:
             result(FlutterMethodNotImplemented)
