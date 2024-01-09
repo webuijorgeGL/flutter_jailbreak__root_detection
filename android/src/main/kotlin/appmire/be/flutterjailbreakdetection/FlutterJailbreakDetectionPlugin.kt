@@ -31,7 +31,7 @@ class FlutterJailbreakDetectionPlugin : FlutterPlugin, MethodCallHandler {
 
 
     private fun isDevMode(): Boolean {
-        return Settings.Secure.getInt(
+        return Settings.Global.getInt(
             context.contentResolver,
             Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0
         ) != 0
