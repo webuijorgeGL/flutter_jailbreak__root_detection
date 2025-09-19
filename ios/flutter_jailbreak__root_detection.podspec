@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Flutter jailbreak and root detection plugin
                        DESC
-  s.homepage         = 'https://github.com/jeroentrappers/flutter_jailbreak_detection'
+  s.homepage         = 'https://github.com/webuijorgeGL/flutter_jailbreak__root_detection'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'George' => 'runaway13819@gmail.com' }
   s.source           = { :path => '.' }

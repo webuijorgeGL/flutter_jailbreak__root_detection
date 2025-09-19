@@ -1,5 +1,9 @@
 ## 1.12.0
 
+* Fixed podspec issue
+
+## 1.12.0
+
 * Fixed minor issue
 
 ## 1.11.0
