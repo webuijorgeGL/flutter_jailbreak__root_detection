@@ -1,4 +1,4 @@
-## 1.12.0
+## 1.13.0
 
 * Fixed podspec issue
 
