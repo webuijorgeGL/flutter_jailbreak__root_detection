@@ -19,7 +19,7 @@ class FlutterJailbreakDetectionPlugin : FlutterPlugin, MethodCallHandler {
 
 
     override fun onAttachedToEngine(binding: FlutterPluginBinding) {
-        channel = MethodChannel(binding.binaryMessenger, "flutter_jailbreak_detection")
+        channel = MethodChannel(binding.binaryMessenger, "flutter_jailbreak__root_detection")
         context = binding.applicationContext
         channel.setMethodCallHandler(this)
     }

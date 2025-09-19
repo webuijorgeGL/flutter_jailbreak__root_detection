@@ -1,3 +1,7 @@
+## 1.11.0
+
+* Add Gradle 9.0 compatibility
+
 ## 1.8.0
 
 * Upgrade android embedding
