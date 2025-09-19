@@ -1,3 +1,7 @@
+## 1.12.0
+
+* Fixed minor issue
+
 ## 1.11.0
 
 * Add Gradle 9.0 compatibility
