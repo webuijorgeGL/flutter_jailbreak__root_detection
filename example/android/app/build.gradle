@@ -41,7 +41,6 @@ android {
         jvmTarget = JavaVersion.VERSION_17
     }
 
-
     lintOptions {
         disable 'InvalidPackage'
     }

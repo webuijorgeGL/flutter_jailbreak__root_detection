@@ -3,9 +3,8 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class FlutterJailbreakDetection {
-  static const MethodChannel _channel = const MethodChannel(
-    'flutter_jailbreak__root_detection',
-  );
+  static const MethodChannel _channel =
+      const MethodChannel('flutter_jailbreak_detection');
 
   /// IOSSecuritySuite.amIJailbroken on iOS and rootBeer.isRooted on Android
   static Future<bool> get jailbroken async {

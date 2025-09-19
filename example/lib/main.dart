@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_jailbreak__root_detection/flutter_jailbreak__root_detection.dart';
+import 'package:flutter_jailbreak_detection/flutter_jailbreak_detection.dart';
 
 void main() => runApp(new MyApp());
 
@@ -49,25 +49,13 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text('Jailbroken plugin example app')),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                'Jailbroken: ${_jailbroken == null
-                    ? "Unknown"
-                    : _jailbroken!
-                    ? "YES"
-                    : "NO"}',
-              ),
-              Text(
-                'Developer mode: ${_developerMode == null
-                    ? "Unknown"
-                    : _developerMode!
-                    ? "YES"
-                    : "NO"}',
-              ),
+        appBar: AppBar(
+          title: const Text('Jailbroken plugin example app'),
+        ),
+        body:  Center(
+          child: Column( mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[Text('Jailbroken: ${_jailbroken == null ? "Unknown" : _jailbroken! ? "YES" : "NO"}'),
+            Text('Developer mode: ${_developerMode == null ? "Unknown" : _developerMode! ? "YES" : "NO"}')
             ],
           ),
         ),

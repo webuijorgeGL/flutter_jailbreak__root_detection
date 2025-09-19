@@ -12,7 +12,7 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
     <application
-        android:label="flutter_jailbreak__root_detection_example"
+        android:label="flutter_jailbreak_detection_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

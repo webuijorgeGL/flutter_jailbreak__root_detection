@@ -1,6 +1,7 @@
-name: flutter_jailbreak__root_detection_example
-description: Demonstrates how to use the flutter_jailbreak__root_detection plugin.
-homepage: https://github.com/webuijorgeGL/flutter_jailbreak__root_detection
+name: flutter_jailbreak_detection_example
+description: Demonstrates how to use the flutter_jailbreak_detection plugin.
+author: Jeroen Trappers <jeroen@appmire.be>
+homepage: https://github.com/jeroentrappers/flutter_jailbreak_detection
 
 version: 1.0.0+1
 
@@ -17,7 +18,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_jailbreak__root_detection:
+  flutter_jailbreak_detection:
     path: ../
 
 flutter:
